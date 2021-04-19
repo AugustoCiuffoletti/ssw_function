@@ -3,7 +3,7 @@ import './style.css';
 
 function f(x) { return 4 * x + 3; }  // disponibile solo in index.js
 
-window.g = function() { 
+document.g = function() { 
   console.log("fatto"); 
   appDiv.innerHTML = 'Fatto'; 
   return; 
